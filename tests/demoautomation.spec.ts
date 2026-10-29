@@ -43,7 +43,7 @@ test('mouse_hover',async({page})=>
     await page.getByRole('button',{name:'click the button to display a confirm box'}).click();
 });
 
-test.only('double&right click',async({page})=>
+test('double&right click',async({page})=>
 {
     await page.goto('https://demo.guru99.com/test/simple_context_menu.html');
 

@@ -28,7 +28,7 @@ test('Verify logo',async({page})=>
     await expect(page.getByAltText('Playwright logo')).toBeVisible();
 });
 
-test.only('Verify Radio and Checkbox',async({page})=>
+test('Verify Radio and Checkbox',async({page})=>
 {
     await page.goto('https://practicetestautomation.com/practice-test-table/');
 
